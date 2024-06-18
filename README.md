@@ -1,14 +1,16 @@
 MarkSharks INC - User Managment Project
+
 Description
+
 This project is a Java application for managing user data, including usernames, emails, and passwords. It provides functionalities for CRUD (Create, Read, Update, Delete) operations on user records.
 
-Features
+Features:
 CRUD Operations: Allows creating, reading, updating, and deleting user data.
 Database Connectivity: Connects to a MySQL database to store and retrieve user information securely.
 Spring Boot: Utilizes Spring Boot for easy setup and configuration.
 Spring Data JPA: Implements data access using Spring Data JPA for database interactions.
 Hibernate: Uses Hibernate as the ORM (Object-Relational Mapping) framework for data persistence.
-Password Encryption: Implements password encryption to ensure data security.
+
 Installation
 Clone the repository:
 
@@ -36,7 +38,9 @@ GET /api/users/{id}: Retrieve user by ID.
 POST /api/users/register: Create new user.
 PUT /api/users/{id}: Update existing user.
 DELETE /api/users/{id}: Delete user by ID.
-Configuration
+
+
+Configuration:
 Database Configuration: Configure the MySQL database connection in application.properties file.
 Application Port: Change the port number in application.properties if needed (server.port property).
 Password Encryption: Check SecurityConfig.java for password encryption configuration.
